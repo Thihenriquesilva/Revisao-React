@@ -1,0 +1,55 @@
+.header{
+    background: #151515;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.frase{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h3{
+    color: white;
+}
+
+p, h1, h2{
+    padding: 15px;
+}
+
+.banner{
+    width: 100vw;
+}
+
+.logo{
+    width: 120px;
+    padding: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: greenyellow;
+    margin-right: 5vw;
+    font-size: 20px;
+    font-weight: bolder;
+}
+a:hover{
+    color: yellow;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+h1{
+    margin: 20px;
+    text-align: center;
+}
